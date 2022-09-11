@@ -6,18 +6,9 @@ You'll start with $50. You'll be asked if you want to play.
 Answer with yes/no. you can also use y/n
 No case sensitivity in your answer.
 For example you can answer with YEs, yEs, Y, nO, N.
-To win you must get one of the following combinations:
-BAR\tBAR\tBAR\t\tpays\t$250
-BELL\tBELL\tBELL/BAR\tpays\t$20
-PLUM\tPLUM\tPLUM/BAR\tpays\t$14
-ORANGE\tORANGE\tORANGE/BAR\tpays\t$10
-CHERRY\tCHERRY\tCHERRY\t\tpays\t$7
-CHERRY\tCHERRY\t  -\t\tpays\t$5
-CHERRY\t  -\t  -\t\tpays\t$2
 ''')
 #Constants:
 INIT_STAKE = 50
-#ITEMS = ["CHERRY", "LEMON", "ORANGE", "PLUM", "BELL", "BAR"]
 
 firstWheel = None
 secondWheel = None
