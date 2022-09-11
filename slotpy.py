@@ -99,7 +99,6 @@ cc.char_8_data = ["11111",
                   "10001",
                   "11111"]
 
-#ITEMS = ["1","2","3","4","5","6","7"]
 ITEMS = ["{0x00}","{0x01}","{0x02}","{0x03}","{0x04}","{0x05}","{0x06}","{0x07}"]
 # Load custom characters data to CG RAM:
 cc.load_custom_characters_data()
